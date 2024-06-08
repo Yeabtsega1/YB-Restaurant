@@ -1,0 +1,53 @@
+.h1{
+    text-align: center;
+    color: black;
+    background: lightgrey;
+}
+.h3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 165px;
+}
+.cart-container{
+width: 80%;
+margin: 0 auto ;
+}
+.fooditem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.foodname{
+    width: 250px;
+}
+.coupon{
+padding: 20px 340px;
+margin-bottom: -140px;
+margin-top: 30px;
+}
+.btn_btn-primary{
+    position: fixed;
+    left: 650px;
+    top: 750px;
+}
+.mb-3{
+    margin-top: 300px;
+}
+#button-addon2{
+    margin-left: 10px;
+}
+.total-price{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    .coupon {
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+      .total-price{
+        margin-left: 150px;
+        margin-top: -200px;
+    }
+    }
